@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web10FM - A Sua Rádio Online</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4081;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .player-container {
+            margin: 50px auto;
+            text-align: center;
+            max-width: 600px;
+        }
+        .player {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .player audio {
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+        }
+        .contact-container {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .contact-container a {
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .sponsors-container {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer-container {
+            background-color: #ff4081;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 -4px 2px -2px gray;
+        }
+        .footer-container p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Web10FM</h1>
+        <p>A Sua Rádio Online 24 Horas por Dia</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Programação</a>
+        <a href="#radio-info">Sobre a Rádio</a>
+        <a href="#about-us">Sobre Nós</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="player-container">
+        <div class="player">
+            <audio controls autoplay loop>
+                <source src="https://stream.zeno.fm/tqtu5r8d84zuv" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+    </div>
+
+    <div id="radio-info" class="contact-container">
+        <h2>Sobre a Web10FM</h2>
+        <p>A Web10FM é uma rádio online que toca os melhores sucessos 24 horas por dia. Aqui, você encontra uma programação feita especialmente para você.</p>
+    </div>
+
+    <div id="about-us" class="contact-container">
+        <h2>Sobre Nós</h2>
+        <p>A Web10FM foi criada para conectar você com o melhor da música e entretenimento. Nossa missão é trazer alegria através das ondas digitais.</p>
+    </div>
+
+    <div id="contact" class="contact-container">
+        <h2>Contato</h2>
+        <a href="https://wa.me/5542998448012" target="_blank">Fale Conosco via WhatsApp</a>
+    </div>
+
+    <div class="sponsors-container">
+        <h2>Patrocine a Web10FM!</h2>
+        <p>Entre em contato para saber como sua marca pode aparecer aqui.</p>
+    </div>
+
+    <div class="footer-container">
+        <p>&copy; 2024 Web10FM. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
